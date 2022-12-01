@@ -1,0 +1,9 @@
+.table {
+    width: 90%;
+    margin-left: 5%;
+    border-collapse: collapse;
+
+}
+.table tr td, .table tr th{
+    border: 1px solid;
+}

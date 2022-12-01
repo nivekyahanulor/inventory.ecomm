@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+
+*{
+   font-family: 'Poppins', sans-serif;
+   margin:0; padding:0;
+   box-sizing: border-box;
+   outline: none; border:none;
+   text-decoration: none;
+}
+
+.form-container{
+   min-height: 100vh;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding:20px;
+   padding-bottom: 60px;
+   background: #0d6b24a4;
+   background: url(redhorse.jpg) no-repeat center center fixed; 
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+}
+
+.form-container form{
+   padding:20px;
+   border-radius: 25px;
+   box-shadow: 0 5px 10px rgba(0,0,0,.1);
+   background: #1f2605;
+   text-align: center;
+   width: 500px;
+}
+
+.form-container form h3{
+   font-size: 30px;
+   text-transform: uppercase;
+   margin-bottom: 10px;
+   color:#faffe8;
+}
+
+.form-container form input,
+.form-container form select{
+   width: 100%;
+   padding:10px 15px;
+   font-size: 15px;
+   margin:8px 0;
+   background: #eee;
+   border-radius: 5px;
+}
+
+.form-container form select option{
+   background: rgb(171, 211, 149);
+}
+
+.form-container form .form-btn{
+   background: #94f2a5;
+   color:rgb(8, 40, 16);
+   text-transform: capitalize;
+   font-size: 20px;
+   cursor: pointer;
+}
+
+.form-container form .form-btn:hover{
+   background: rgb(10, 90, 10);
+   color:#fff;
+}
+
+.form-container form p{
+   margin-top: 10px;
+   font-size: 20px;
+   color:rgb(255, 255, 255);
+}
+
+.form-container form p a{
+   color:#1cb315;
+}
+
+.form-container form .error-msg{
+   margin:10px 0;
+   display: block;
+   background: crimson;
+   color:#fff;
+   border-radius: 5px;
+   font-size: 20px;
+   padding:10px;
+}
+
+/* ---------- GENERAL ---------- */
+* {
+   box-sizing: border-box;
+ }
+ *:before, *:after {
+   box-sizing: border-box;
+ }
+ 
+ body {
+   color: rgb(153, 153, 153);
+   font: 400 16px/1.5em sans-serif;
+   margin: 0;
+   background: #0ba331a4;
+   background: url(redhorse1.png) no-repeat center center fixed; 
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+ }
+ 
+ h3 {
+   margin: 0;
+ }
+ 
+ a {
+   color: #999;
+   text-decoration: none;
+ }
+ 
+ a:hover {
+   color: #1dabb8;
+ }
+ 
+ fieldset {
+   border: none;
+   margin: 0;
+ }
+ 
+ input {
+   border: none;
+   font-family: inherit;
+   font-size: inherit;
+   margin: 0;
+   -webkit-appearance: none;
+ }
+ 
+ input:focus {
+   outline: none;
+ }
+ 
+ input[type="submit"] {
+   cursor: pointer;
+ }
+ 
+ .clearfix {
+   *zoom: 1;
+ }
+ .clearfix:before, .clearfix:after {
+   content: ' ';
+   display: table;
+ }
+ .clearfix:after {
+   clear: both;
+ }
+ 
+ .container {
+   left: 50%;
+   position: fixed;
+   top: 50%;
+   -webkit-transform: translate(-50%, -50%);
+       -ms-transform: translate(-50%, -50%);
+           transform: translate(-50%, -50%);
+ }
+ 
+ /* ---------- LOGIN-FORM ---------- */
+ #login-form {
+   width: 530px;
+ 
+ }
+ 
+ #login-form h3 {
+   background-color: #0d6b24;
+   border-radius: 5px 5px 0 0;
+   color: #fff;
+   font-size: 20px;
+   padding: 20px;
+   text-align: center;
+   text-transform: uppercase;
+ }
+ 
+ #login-form fieldset {
+   background: #fff;
+   border-radius: 0 0 5px 5px;
+   padding: 20px;
+   position: relative;
+ }
+ 
+ #login-form fieldset:before {
+   background-color: #fff;
+   content: "";
+   height: 8px;
+   left: 50%;
+   margin: -4px 0 0 -4px;
+   position: absolute;
+   top: 0;
+   -webkit-transform: rotate(45deg);
+   -ms-transform: rotate(45deg);
+   transform: rotate(45deg);
+   width: 8px;
+ }
+ 
+ #login-form input {
+   font-size: 16px;
+ }
+ 
+ #login-form input[type="text"],
+ #login-form input[type="password"] {
+   border: 1px solid #dcdcdc;
+   padding: 12px 10px;
+   width: 100%;
+ }
+ 
+ #login-form input[type="text"] {
+   border-radius: 3px 3px 0 0;
+ }
+ 
+ #login-form input[type="password"] {
+   border-top: none;
+   border-radius: 0px 0px 3px 3px;
+ }
+ 
+ #login-form input[type="submit"] {
+   background: #17b03db9;
+   border-radius: 3px;
+   color: #fff;
+   float: right;
+   font-weight: bold;
+   margin-top: 20px;
+   padding: 12px 20px;
+ }
+ 
+ #login-form input[type="submit"]:hover {
+   background: Maroon;
+ }
+ 
+ #login-form footer {
+   font-size: 12px;
+   margin-top: 16px;
+ }
+ 
+ .info {
+   background: #e5e5e5;
+   border-radius: 50%;
+   display: inline-block;
+   height: 20px;
+   line-height: 20px;
+   margin: 0 10px 0 0;
+   text-align: center;
+   width: 20px;
+ }
+ 
